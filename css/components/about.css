@@ -1,0 +1,32 @@
+.about img{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.about > * {
+  margin-top: 2rem;
+}
+
+.about__links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  
+}
+
+
+/* Media Queries */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {}
+
+/* sm */
+@media (max-width: 640px) {}

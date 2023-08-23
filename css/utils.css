@@ -1,0 +1,9 @@
+._link {
+  color: var(--color_zinc100);
+  transition: all .2s ease-in-out;
+}
+
+._link:hover {
+  color: var(--color_highlight);
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.projects {
+  color: var(--color_zinc100);
+}
+
+.projects ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  gap: 1rem;  
+}
+
+.projects > ul > li {  
+  background-color: var(--color_zinc900);  
+  border: 0.5px solid var(--color_highlight);
+  border-radius: 5%;
+  transition: all .2s ease-in-out;
+}
+.projects li:hover {
+  transform: scale(1.02);
+}
+
+.projects__card {  
+  margin: 2rem;  
+}
+
+.projects__card > * {
+  margin-top: 1rem;
+}
+
+.projects__cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects__card i {
+  color: var(--color_highlight);
+}
+
+.projects__technologies {
+  margin-top: 2rem;
+  color: var(--color_zinc300);
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
