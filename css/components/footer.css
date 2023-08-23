@@ -9,5 +9,40 @@ footer > section {
 footer > section > ul {
   display: flex;
   gap: 2rem;
-  list-style: none;
+  list-style: none; 
+}
+
+
+/* Media Queries */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {
+  footer > section {
+      display: flex;
+      flex-direction: column;
+  }
+  footer>section>ul {
+    margin-top: 2rem;
+  }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+  footer > section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer > section > * {
+    margin-top: 2rem;
+  }
+
 }

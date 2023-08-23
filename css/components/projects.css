@@ -2,9 +2,9 @@
   color: var(--color_zinc100);
 }
 
-.projects ul {
+.projects__list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style-type: none;
   gap: 1rem;  
 }
@@ -40,7 +40,24 @@
 .projects__technologies {
   margin-top: 2rem;
   color: var(--color_zinc300);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: flex;
-  justify-content: space-between;
+  list-style: none;
+  gap: 2rem;
 }
+
+
+/* Media Queries */
+@media (max-width: 1536px) {}
+
+/* xl */
+@media (max-width: 1280px) {}
+
+/* lg */
+@media (max-width: 1024px) {}
+
+/* md */
+@media (max-width: 768px) {}
+
+/* sm */
+@media (max-width: 640px) {}
