@@ -1,3 +1,7 @@
+.projects > * {
+  margin-bottom: 2rem;
+}
+
 .projects {
   color: var(--color_zinc100);
 }
