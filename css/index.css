@@ -77,6 +77,13 @@ h1 {
   line-height: 3.5rem;
 }
 
+h3 {
+  color: var(--color_zinc100);
+  font-size: 1.0rem;
+  line-height: 1rem;
+  margin-top: 0.5rem !important;
+}
+
 p {
   max-width: 80ch;
   color: var(--color_zinc300);
