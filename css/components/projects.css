@@ -11,7 +11,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style-type: none;
   gap: 1rem;  
-  margin-left: auto;
+  margin-left: 0.5rem;
 }
 
 .projects > ul > li {  
