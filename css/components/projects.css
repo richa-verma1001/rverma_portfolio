@@ -18,7 +18,7 @@
   background-color: var(--color_zinc900);  
   border: 0.5px solid var(--color_highlight);
   border-radius: 5%;
-  transition: all .2s ease-in-out;
+  /** transition: all .2s ease-in-out; **/
 }
 .projects li:hover {
   transform: scale(1.02);
