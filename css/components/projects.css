@@ -15,7 +15,7 @@
 
 .projects > ul > li {  
   background-color: var(--color_zinc900);  
-  border: 0.5px solid var(--color_highlight);
+  border: 0.5px solid var(--color_border);
   border-radius: 5%;
   transition: all .2s ease-in-out;
 }
@@ -29,6 +29,10 @@
 
 .projects__card > * {
   margin-top: 1rem;
+}
+
+.projects__card > h2 > a {
+  color: var(--color_zinc100);
 }
 
 .projects__cardHeader {
