@@ -10,15 +10,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   list-style-type: none;
-  gap: 1rem;  
-  margin-left: 0.5rem;
+  gap: 1rem;
 }
 
 .projects > ul > li {  
   background-color: var(--color_zinc900);  
-  border: 0.5px solid #fff;
-  /** border-radius: 5%;
-   transition: all .2s ease-in-out; **/
+  border: 0.5px solid var(--color_highlight);
+  border-radius: 5%;
+  transition: all .2s ease-in-out;
 }
 .projects li:hover {
   transform: scale(1.02);
@@ -65,4 +64,11 @@
 @media (max-width: 768px) {}
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+    .projects>ul>li { 
+      background-color: var(--color_zinc900);
+      border: 1px solid #fff;
+      border-radius: 0%;
+      transition: unset;
+    }
+}
