@@ -63,4 +63,13 @@ header {
 @media (max-width: 768px) {}
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+  .header__list {
+    gap: 1rem; 
+  }
+
+  .header__toggleTheme {
+    display: none;
+  }
+
+}
