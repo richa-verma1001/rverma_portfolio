@@ -1,7 +1,6 @@
 # rverma_portfolio
 
-My portfolio place holder
+RVerma Portfolio
+Tech Stack: JS, HTML and CSS.
 
-Simple application written using JS, HTML and CSS.
-
-drive location at: React18/cssProjects/rverma_portfolio
+Deployed: https://splendorous-bienenstitch-1c3210.netlify.app/
