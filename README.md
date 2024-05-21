@@ -1,6 +1,6 @@
 # rverma_portfolio
 
 RVerma Portfolio
-Tech Stack: JS, HTML and CSS.
+Tech Stack: React18, JS, HTML and CSS.
 
-Deployed: https://splendorous-bienenstitch-1c3210.netlify.app/
+Deployed: https://rverma.vercel.app/
