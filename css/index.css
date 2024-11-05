@@ -23,7 +23,9 @@
   --color_darkest: #020c1b;
   --color_zinc900: #0a192f;
   --color_zinc100: #f4f4f5;
-  --color_zinc300: #8892b0;
+  /* --color_zinc300: #8892b0; */
+  --color_zinc300: #c6cad3;
+  /* #eff1f7; */
   --color_zinc500: #112240;
   --color_zinc700: #233554;
   --color_highlight: #64ffda;
@@ -34,7 +36,7 @@
 
 .light {
   --color_darkest: #d4d4d8;
-  --color_zinc900: #ffffff;
+  --color_zinc900: #F7FAFC;
   --color_zinc100: #18181b;
   --color_zinc500: #d4d4d8;
   --color_zinc700: #ffffff;
@@ -138,5 +140,9 @@ section {
     main {
       margin-right: 1.5rem;
       margin-left: 1.5rem;
+    }
+
+    section {
+      margin-top: 2rem;
     }
 }
