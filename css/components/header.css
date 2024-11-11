@@ -39,7 +39,7 @@ header {
   color: var(--color_zinc100);
   margin-right: 5rem;
   padding: 1rem 1rem;
-  border: 0.5px solid var(--color_border);
+  border: var(--border_width) solid var(--color_border);
   border-radius: 40%;
   /* box-shadow: var(--shadow); */
   transition: all .2s ease-in-out;
@@ -47,7 +47,7 @@ header {
 
 .header__toggleTheme:hover {
   color: var(--color_highlight);
-  border: 0.5px solid var(--color_highlight);
+  border: var(--border_width) solid var(--color_highlight);
 }
 
 .hide {

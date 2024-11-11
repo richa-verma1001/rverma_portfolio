@@ -30,6 +30,8 @@
   --color_border: #ffffff;  
 
   --shadow: 1px 2px 10px rgba(2, 12, 27, 0.7);
+
+  --border_width: 0.5px;
 }
 
 .light {
@@ -40,6 +42,7 @@
   --color_zinc700: #ffffff;
   --color_zinc300: #3f3f46;
   --color_border: #64ffda;
+  --border_width: 1.5px;
 }
 
 body {
@@ -101,39 +104,40 @@ section {
 
 /* Media Queries */
 @media (max-width: 1536px) {
-  
+  .container{
+    
+  }
 }
 
 /* ipad: regular */
 @media (max-width: 1280px) {
   .container{
     width: 90vw;
+    
   }
 }
 /* lg: ipad Mini */
 @media (max-width: 1024px) {
-
+  
 }
 
 /* md: pro max phones? */
 @media (max-width: 768px) {
   .container {
-      width: 100vw;
-    }
+      width: 100vw;      
+  }
+  main {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  section {
+    margin-top: 2rem;
+  }
+
 }
 
 /* sm :iphone pro and smaller*/
 @media (max-width: 640px) {
-  .container {
-      width: 100vw;
-    }
-
-    main {
-      margin-right: 1.5rem;
-      margin-left: 1.5rem;
-    }
-
-    section {
-      margin-top: 2rem;
-    }
+    
 }
